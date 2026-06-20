@@ -1,1 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>multiviewcamconnect – Project Overview</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
 
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 3rem;
+    }
+
+    header {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #1f2937;
+      padding-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 0.5rem;
+      color: #f9fafb;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      color: #e5e7eb;
+    }
+
+    p {
+      margin: 0.25rem 0 0.5rem;
+    }
+
+    code {
+      font-family: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      background: #020617;
+      padding: 0.1rem 0.35rem;
+      border-radius: 4px;
+      font-size: 0.95em;
+    }
+
+    pre {
+      background: #020617;
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 0.9rem;
+      border: 1px solid #1f2937;
+      margin: 0.5rem 0 1.25rem;
+      white-space: pre;
+    }
+
+    .tagline {
+      color: #9ca3af;
+      font-size: 0.98rem;
+      max-width: 40rem;
+    }
+
+    ul {
+      margin: 0.3rem 0 0.9rem 1.25rem;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 0.2rem;
+    }
+
+    .pill {
+      display: inline-block;
+      font-size: 0.8rem;
+      padding: 0.15rem 0.6rem;
+      border-radius: 999px;
+      background: #1d283a;
+      color: #93c5fd;
+      border: 1px solid #1f2937;
+      margin-right: 0.3rem;
+    }
+
+    footer {
+      margin-top: 2.5rem;
+      font-size: 0.85rem;
+      color: #6b7280;
+      border-top: 1px solid #1f2937;
+      padding-top: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 2.3rem;
+      }
+
+      .page {
+        padding: 3rem 2rem 3.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>multiviewcamconnect</h1>
+      <p class="tagline">
+        A multi-view camera connection project with a ready-to-use production build and a modern development
+        stack powered by TypeScript and Tailwind CSS.
+      </p>
+      <p>
+        <span class="pill">TypeScript</span>
+        <span class="pill">React</span>
+        <span class="pill">Tailwind CSS</span>
+      </p>
+    </header>
+
+    <section>
+      <h2>📂 Directory Structure</h2>
+      <pre><code>├── dist/            ⭐ This is the production build (recommended for direct use)
+│   ├── index.html   → Open this file in a browser to preview the website
+│   ├── assets/      → Bundled CSS, JS, and other resource files
+│   └── ...
+├── src/             📝 Source code directory (for development and modification)
+│   ├── components/  → React components
+│   ├── App.jsx      → Main application component
+│   ├── index.js     → Entry file
+│   └── ...
+├── package.json     📦 Project dependency configuration
+├── README.md        📖 Project documentation
+└── ...</code></pre>
+    </section>
+
+    <section>
+      <h2>🚀 Quick Start</h2>
+      <h3>Option 1: Direct Use (Recommended for Beginners)</h3>
+      <ol>
+        <li>Navigate to the <code>dist/</code> directory.</li>
+        <li>Double-click the <code>index.html</code> file.</li>
+        <li>The website will open in your browser.</li>
+      </ol>
+
+      <h3>Option 2: Development Mode (For Users with Coding Experience)</h3>
+      <ol>
+        <li>Make sure Node.js is installed (recommended version: 16+).</li>
+        <li>Open a terminal/command line in the project root directory.</li>
+        <li>Run: <code>npm install</code></li>
+        <li>Run: <code>npm start</code></li>
+        <li>The development server will automatically open in your browser.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>💡 Tips</h2>
+      <ul>
+        <li>The <code>dist/</code> directory contains the optimized build and can be directly deployed to a server.</li>
+        <li>The root-level <code>index.html</code> is not the final version — always use the one inside <code>dist/</code>.</li>
+        <li>To modify the code, edit files inside <code>src/</code> and rebuild the project.</li>
+        <li>The project uses a modern tech stack including TypeScript and Tailwind CSS.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Project: multiviewcamconnect</p>
+      <p>Maintainer: Christina Marquez</p>
+    </footer>
+  </div>
+</body>
+</html
